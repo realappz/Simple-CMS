@@ -1,0 +1,15 @@
+a {
+    text-decoration: none;
+    color:#888;
+}
+a:visited {
+    color:#888;
+}
+#adminbar {
+    position:absolute;
+    right:0;
+    top:0;
+}
+#logout {
+    padding:5px;
+}
