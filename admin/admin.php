@@ -9,6 +9,8 @@
     <button id="create_user">Create User</button>
     <button id="logout">Logout</button>
 
+    <button id="admin_posts">Posts</button>
+
     <div id="main"></div>
 
     <?php } else {

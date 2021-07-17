@@ -51,4 +51,10 @@ jQuery(document).ready(function() {
         }) 
     })
 
+    $(document).on("click", "#admin_posts", function() {
+        $.get(window.location.protocol + "//" + window.location.host + '/admin/posts.php', function(data) {
+            $("#main").html(data);
+        })
+    })
+
 })
